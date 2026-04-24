@@ -1,0 +1,32 @@
+{
+  "formatVersion": 1,
+  "duration": 1,
+  "holdLastKeyframe": true,
+  "nodeAnimations": {
+    "water_fill": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": -9.75, "z": 0},
+          "interpolationType": "step"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [
+        {
+          "time": 0,
+          "delta": {"x": 1, "y": 0.25, "z": 1},
+          "interpolationType": "step"
+        }
+      ],
+      "shapeVisible": [
+        {
+          "time": 0,
+          "delta": true,
+          "interpolationType": "step"
+        }
+      ],
+      "shapeUvOffset": []
+    }
+  }
+}

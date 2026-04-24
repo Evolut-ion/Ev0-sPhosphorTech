@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "Thorium Dust"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/thorium_dust_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Thorium_Dust_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Dust"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

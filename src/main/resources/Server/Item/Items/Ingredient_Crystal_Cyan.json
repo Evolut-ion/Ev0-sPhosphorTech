@@ -1,0 +1,27 @@
+{
+  "Parent": "Ingredient_Crystal_White",
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Crystal_Cyan.name"
+  },
+  "Model": "Resources/Crystals/Crystal_Fragment.blockymodel",
+  "Texture": "Resources/Crystals/Crystal_Fragment_Textures/Cyan.png",
+  "IconProperties": {
+    "Scale": 0.75,
+    "Translation": [
+      -0.3,
+      0.3
+    ],
+    "Rotation": [
+      34.315,
+      29.815,
+      22.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Crystal_Fragments_Cyan.png",
+  "ResourceTypes": [
+    {
+      "Id": "Crystals",
+      "Quantity": 1
+    }
+  ]
+}

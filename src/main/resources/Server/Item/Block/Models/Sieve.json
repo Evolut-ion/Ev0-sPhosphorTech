@@ -1,0 +1,16 @@
+{
+  "Model": {
+    "Parts": [
+      {
+        "Name": "base",
+        "Box": { "From": [0,0,0], "To": [16,8,16] },
+        "Texture": "Blocks/Sieve.png"
+      },
+      {
+        "Name": "frame",
+        "Box": { "From": [0,8,0], "To": [16,16,16] },
+        "Texture": "Blocks/Sieve.png"
+      }
+    ]
+  }
+}

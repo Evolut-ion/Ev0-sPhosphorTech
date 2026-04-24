@@ -1,0 +1,75 @@
+{
+  "TranslationProperties": {
+    "Name": "Electrical Compressor"
+  },
+  "Set": "Rock_Aqua_Brick",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Electrical Compressor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/electrical_compressor_texture.png"
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#b2dfdb",
+    "State": {
+      "Id": "Compressor",
+      "Size": 5,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/compressor_idle.blockyanim",
+          "Looping": true
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/compressor_active.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCompressor"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Centrifuge": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Electrical Compressor_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Aqua_Brick",
+  "Container": {
+    "Capacity": 2
+  },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Iron", "Quantity": 8 },
+      { "ResourceTypeId": "SteelIngots", "Quantity": 4 },
+      { "ItemId": "Ingredient_SteelFrame", "Quantity": 1 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "Leaf Spring Flywheel Capacitor"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/LS_Capacitor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ls_capacitor_texture.png"
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#4caf50",
+    "State": {
+      "Id": "LeafSpringFlywheelCapacitor",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/LS_Capacitor_idle.blockyanim",
+          "Looping": true
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/LS_Capacitor_Charge.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenLeafSpringFlywheelCapacitor"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "LeafSpringFlywheelCapacitor": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/LS_Capacitor_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ResourceTypeId": "Wood_All_Trunk",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_IronFrame",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

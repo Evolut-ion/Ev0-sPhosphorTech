@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Fired Coke Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/fired_coke_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_FiredCoke_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "Coke Oven"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/coke_oven.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/coke_oven_texture.png"
+      }
+    ],
+    "ParticleColor": "#ff8f00",
+    "State": {
+      "Id": "CokeOven",
+      "Size": 2,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": null,
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": null,
+          "RequiresAlphaBlending": true,
+          "Looping": true
+        },
+        "Done": {
+          "CustomModelAnimation": null,
+          "RequiresAlphaBlending": true,  
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCokeOven"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "CokeOven": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/coke_oven_icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Bench_Furnace",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_CokeBrick",
+        "Quantity": 24
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

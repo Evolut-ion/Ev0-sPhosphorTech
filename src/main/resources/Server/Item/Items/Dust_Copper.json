@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "Copper Dust"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/copper_dust_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Copper_Dust_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Dust"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

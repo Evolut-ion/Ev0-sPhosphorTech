@@ -1,0 +1,1 @@
+{ "Input": "Ore_Gold", "CfCost": 1200, "Ticks": 100, "OutputQty": 2, "BonusOutput": "Dust_Copper", "BonusQty": 1, "BonusChance": 0.65 }

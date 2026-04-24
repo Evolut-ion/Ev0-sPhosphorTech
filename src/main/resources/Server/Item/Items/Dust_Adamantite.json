@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "Adamantite Dust"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/Adamantium_dust_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Adamantium_Dust_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Dust"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

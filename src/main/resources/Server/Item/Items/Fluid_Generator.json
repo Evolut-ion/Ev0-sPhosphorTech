@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "Fluid Generator"
+  },
+  "Set": "Rock_Aqua_Brick",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Fluid_Generator.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/fluid_generator_texture.png"
+      }
+    ],
+    "ParticleColor": "#b39ddb",
+    "State": {
+      "Id": "FluidGenerator",
+      "Size": 5
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenFluidGenerator"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "FluidGenerator": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Fluid_Generator_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": {
+    "Capacity": 2
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_SteelFrame",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

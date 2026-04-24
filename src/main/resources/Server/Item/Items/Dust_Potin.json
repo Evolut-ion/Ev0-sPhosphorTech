@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "Potin Dust"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/potin_dust_texture.png"
+      }
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Dust_Lead",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Dust_Silver",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Dust_Copper",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Potin_Dust_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Dust"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

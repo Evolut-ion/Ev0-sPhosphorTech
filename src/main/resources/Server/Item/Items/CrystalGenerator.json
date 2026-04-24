@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "Crystal Generator"
+  },
+  "Set": "Rock_Aqua_Brick",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/CrystalGenerator.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/crystal_generator_texture.png"
+      }
+    ],
+    "ParticleColor": "#b39ddb",
+    "State": {
+      "Id": "CrystalGenerator",
+      "Size": 5,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crystal_generator_idle.blockyanim",
+          "Looping": false
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crystal_generator_running.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCrystalGenerator"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "CrystalGenerator": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/CrystalGenerator_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": {
+    "Capacity": 2
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 12
+      },
+      {
+        "ResourceTypeId": "Crystals",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_SteelFrame",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "TranslationProperties": {
+    "Name": "Coke Brick"
+  },
+  "Tags": {
+    "Type": ["Material"]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_UnfiredCokeBrick",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 30
+  },
+  "Icon": "Icons/ItemsGenerated/Fired_Coke_Brick_Icon.png",
+  "Utility": {
+    "Usable": false
+  }
+}

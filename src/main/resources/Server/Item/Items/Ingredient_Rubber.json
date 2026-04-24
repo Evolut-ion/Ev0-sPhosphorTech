@@ -1,0 +1,12 @@
+{
+  "TranslationProperties": {
+    "Name": "Rubber"
+  },
+  "Tags": {
+    "Type": ["Material", "Polymer"]
+  },
+  "Icon": "Icons/ItemsGenerated/Rubber_Dust_Icon.png",
+  "Utility": {
+    "Usable": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Lead Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/lead_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Lead_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

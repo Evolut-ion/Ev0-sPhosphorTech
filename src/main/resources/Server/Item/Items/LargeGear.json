@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "Large Gear"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "Blocks/small_gear_texture.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#9e9e9e",
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/SmallGear.blockymodel",
+    "State": {
+      "Id": "LargeGear",
+      "Size": 1,
+      "Definitions": {
+        "Idle": {
+          "Looping": false
+        },
+        "Spin": {
+          "Looping": true
+        },
+        "SpinBack": {
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "VariantRotation": "UpDownNESW",
+    "BlockEntity": {
+      "Components": {
+        "LargeGear": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/SmallGear_Icon.png",
+  "Utility": {
+    "Usable": false
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}
+

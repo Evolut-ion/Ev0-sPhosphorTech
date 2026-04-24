@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "Hand Crank"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/HandCrank.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/handcrank_texture.png"
+      }
+    ],
+    "ParticleColor": "#8d6e63",
+    "State": {
+      "Id": "HandCrank",
+      "Size": 2,
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/hand_crank_idle.blockyanim",
+          "Looping": false
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/hand_crank_active.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "CrankHandle"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "HandCrank": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/HandCrank_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 3
+      },
+      {
+        "ResourceTypeId": "Wood_All_Trunk",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

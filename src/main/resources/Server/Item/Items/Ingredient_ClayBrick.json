@@ -1,0 +1,28 @@
+{
+  "TranslationProperties": {
+    "Name": "Clay Brick"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_UnfiredClayBrick",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 30
+  },
+  "Tags": {
+    "Type": ["Material"]
+  },
+  "Icon": "Icons/ItemsGenerated/Fired_Clay_Brick_Icon.png",
+  "Utility": {
+    "Usable": false
+  }
+}

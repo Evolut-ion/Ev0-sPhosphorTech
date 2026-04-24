@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Gold Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/gold_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Gold_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

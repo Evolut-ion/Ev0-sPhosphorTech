@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "Sandstone Dust"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/gold_dust_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Gold_Dust_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Dust"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "TranslationProperties": {
+    "Name": "Steam Reservoir"
+  },
+  "Set": "Rock_Calcite_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Steam Reservoir.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/reservoir_texture.png"
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#607d8b",
+    "State": {
+      "Id": "SteamReservoir",
+      "Size": 10,
+      "Definitions": {
+        "FillLevel1": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_1.blockyanim",
+          "Looping": false
+        },
+        "FillLevel2": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_2.blockyanim",
+          "Looping": false
+        },
+        "FillLevel3": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_3.blockyanim",
+          "Looping": false
+        },
+        "FillLevel4": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_4.blockyanim",
+          "Looping": false
+        },
+        "FillLevel5": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_5.blockyanim",
+          "Looping": false
+        },
+        "FillLevel6": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_6.blockyanim",
+          "Looping": false
+        },
+        "FillLevel7": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_7.blockyanim",
+          "Looping": false
+        },
+        "FillLevel8": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_8.blockyanim",
+          "Looping": false
+        },
+        "FillLevel9": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_9.blockyanim",
+          "Looping": false
+        },
+        "FillLevel10": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/fill_level_10.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenSteamReservoir"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "SteamReservoir": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Steam_Reservoir_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "ClayPipe",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

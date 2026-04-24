@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": { "Name": "Iron Frame" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Frame.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/iron_frame_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/IronFrame_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Frame"] },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Rod_Iron", "Quantity": 12 },
+      { "ItemId": "Plate_Iron", "Quantity": 6 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

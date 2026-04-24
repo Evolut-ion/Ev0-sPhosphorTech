@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Cobalt Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/cobalt_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Cobalt_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

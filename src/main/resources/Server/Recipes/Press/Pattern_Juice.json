@@ -1,0 +1,1 @@
+{ "InputRegex": "Plant_Fruit_(\\w+)", "OutputTemplate": "NoCube_Drink_Fruit_Juice_$1", "InputQty": 4, "CfCost": 500, "Ticks": 40, "OutputQty": 1 }

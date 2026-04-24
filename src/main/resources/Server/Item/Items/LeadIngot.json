@@ -1,0 +1,20 @@
+{
+  "TranslationProperties": {
+    "Name": "Lead Ingot"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Ingot.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/lead_ingot_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Lead_Ingot_Icon.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  }
+}

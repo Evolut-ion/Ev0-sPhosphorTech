@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Alloy Smelter"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Alloy Furnace.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/alloy_furnace_texture.png"
+      }
+    ],
+    "Textures": [
+      {
+        "All": "Items/Icons/ItemsGenerated/alloy_furnace_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#bf5e0a",
+    "State": {
+      "Id": "AlloySmelter",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": null,
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": null,
+          "Looping": true
+        },
+        "Done": {
+          "CustomModelAnimation": null,
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenAlloySmelter"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "AlloySmelter": {}
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Alloy Furnace_Icon.png",
+  "Tags": {
+    "Type": [ "Rock" ]
+  },
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": {
+    "Capacity": 4
+  },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "CokeOven", "Quantity": 1 },
+      { "ItemId": "CopperWire", "Quantity": 4 },
+      { "ItemId": "Ingredient_IronFrame", "Quantity": 1 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [ "Workbench_Crafting" ]
+      }
+    ]
+  }
+}

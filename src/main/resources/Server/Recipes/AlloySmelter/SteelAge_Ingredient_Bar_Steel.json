@@ -1,0 +1,8 @@
+{
+  "Input1": "Ingredient_Bar_Iron",
+  "Input2": "Ingredient_CoalCoke",
+  "Output1": "SteelAge_Ingredient_Bar_Steel",
+  "Output1Qty": 1,
+  "CfCost": 1500,
+  "Ticks": 120
+}

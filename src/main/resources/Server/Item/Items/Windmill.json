@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Windmill"
+  },
+  "Set": "Rock_Aqua_Brick",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Windmill.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/windmill_texture.png"
+      }
+    ],
+    "ParticleColor": "#cfd8dc",
+    "State": {
+      "Id": "Windmill",
+      "Size": 5,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/windmill_idle.blockyanim",
+          "Looping": true
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/windmill_active.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenWindmill"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Windmill": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Windmill_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_IronFrame",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

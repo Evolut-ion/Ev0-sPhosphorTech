@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": { "Name": "Steel Frame" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Frame.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/steel_frame_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/SteelFrame_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Frame"] },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Rod_Steel", "Quantity": 12 },
+      { "ItemId": "Plate_Steel", "Quantity": 6 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

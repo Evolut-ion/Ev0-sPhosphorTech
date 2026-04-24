@@ -1,0 +1,324 @@
+{
+    "TranslationProperties":  {
+                                  "Name":  "Cobalt Wire"
+                              },
+    "Set":  "Rock_Granite_Cobble",
+    "BlockType":  {
+                      "Gathering":  null,
+                      "ParticleColor":  "#0047ab",
+                      "Material":  "Solid",
+                      "BlockEntity":  {
+                                          "Components":  {
+                                                             "WireState":  {
+                                                                               "MaxTransfer":  512
+                                                                           }
+                                                         }
+                                      },
+                      "DrawType":  "Model",
+                      "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Base.blockymodel",
+                      "CustomModelTexture":  [
+                                                 {
+                                                     "Texture":  "Blocks/CobaltWire.png"
+                                                 }
+                                             ],
+                      "RequiresAlphaBlending":  false,
+                      "State":  {
+                                    "Id":  "CobaltWire",
+                                    "Size":  64,
+                                    "Definitions":  {
+                                                        "Connect_0":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_0.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_0"
+                                                                      },
+                                                        "Connect_1":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_1.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_1"
+                                                                      },
+                                                        "Connect_2":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_2.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_2"
+                                                                      },
+                                                        "Connect_3":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_3.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_3"
+                                                                      },
+                                                        "Connect_4":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_4.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_4"
+                                                                      },
+                                                        "Connect_5":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_5.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_5"
+                                                                      },
+                                                        "Connect_6":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_6.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_6"
+                                                                      },
+                                                        "Connect_7":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_7.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_7"
+                                                                      },
+                                                        "Connect_8":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_8.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_8"
+                                                                      },
+                                                        "Connect_9":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_9.blockymodel",
+                                                                          "HitboxType":  "Wire_Conn_9"
+                                                                      },
+                                                        "Connect_10":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_10.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_10"
+                                                                       },
+                                                        "Connect_11":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_11.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_11"
+                                                                       },
+                                                        "Connect_12":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_12.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_12"
+                                                                       },
+                                                        "Connect_13":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_13.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_13"
+                                                                       },
+                                                        "Connect_14":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_14.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_14"
+                                                                       },
+                                                        "Connect_15":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_15.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_15"
+                                                                       },
+                                                        "Connect_16":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_16.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_16"
+                                                                       },
+                                                        "Connect_17":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_17.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_17"
+                                                                       },
+                                                        "Connect_18":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_18.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_18"
+                                                                       },
+                                                        "Connect_19":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_19.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_19"
+                                                                       },
+                                                        "Connect_20":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_20.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_20"
+                                                                       },
+                                                        "Connect_21":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_21.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_21"
+                                                                       },
+                                                        "Connect_22":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_22.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_22"
+                                                                       },
+                                                        "Connect_23":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_23.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_23"
+                                                                       },
+                                                        "Connect_24":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_24.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_24"
+                                                                       },
+                                                        "Connect_25":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_25.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_25"
+                                                                       },
+                                                        "Connect_26":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_26.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_26"
+                                                                       },
+                                                        "Connect_27":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_27.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_27"
+                                                                       },
+                                                        "Connect_28":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_28.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_28"
+                                                                       },
+                                                        "Connect_29":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_29.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_29"
+                                                                       },
+                                                        "Connect_30":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_30.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_30"
+                                                                       },
+                                                        "Connect_31":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_31.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_31"
+                                                                       },
+                                                        "Connect_32":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_32.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_32"
+                                                                       },
+                                                        "Connect_33":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_33.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_33"
+                                                                       },
+                                                        "Connect_34":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_34.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_34"
+                                                                       },
+                                                        "Connect_35":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_35.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_35"
+                                                                       },
+                                                        "Connect_36":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_36.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_36"
+                                                                       },
+                                                        "Connect_37":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_37.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_37"
+                                                                       },
+                                                        "Connect_38":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_38.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_38"
+                                                                       },
+                                                        "Connect_39":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_39.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_39"
+                                                                       },
+                                                        "Connect_40":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_40.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_40"
+                                                                       },
+                                                        "Connect_41":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_41.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_41"
+                                                                       },
+                                                        "Connect_42":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_42.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_42"
+                                                                       },
+                                                        "Connect_43":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_43.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_43"
+                                                                       },
+                                                        "Connect_44":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_44.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_44"
+                                                                       },
+                                                        "Connect_45":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_45.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_45"
+                                                                       },
+                                                        "Connect_46":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_46.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_46"
+                                                                       },
+                                                        "Connect_47":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_47.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_47"
+                                                                       },
+                                                        "Connect_48":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_48.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_48"
+                                                                       },
+                                                        "Connect_49":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_49.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_49"
+                                                                       },
+                                                        "Connect_50":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_50.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_50"
+                                                                       },
+                                                        "Connect_51":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_51.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_51"
+                                                                       },
+                                                        "Connect_52":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_52.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_52"
+                                                                       },
+                                                        "Connect_53":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_53.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_53"
+                                                                       },
+                                                        "Connect_54":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_54.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_54"
+                                                                       },
+                                                        "Connect_55":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_55.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_55"
+                                                                       },
+                                                        "Connect_56":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_56.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_56"
+                                                                       },
+                                                        "Connect_57":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_57.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_57"
+                                                                       },
+                                                        "Connect_58":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_58.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_58"
+                                                                       },
+                                                        "Connect_59":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_59.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_59"
+                                                                       },
+                                                        "Connect_60":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_60.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_60"
+                                                                       },
+                                                        "Connect_61":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_61.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_61"
+                                                                       },
+                                                        "Connect_62":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_62.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_62"
+                                                                       },
+                                                        "Connect_63":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Wire_Conn_63.blockymodel",
+                                                                           "HitboxType":  "Wire_Conn_63"
+                                                                       }
+                                                    }
+                                },
+                      "HitboxType":  "Wire_Conn_0"
+                  },
+    "Tags":  {
+                 "Type":  [
+                              "Rock"
+                          ]
+             },
+    "Icon":  "Icons/ItemsGenerated/Cobalt_Wire_Icon.png",
+    "Utility":  {
+                    "Usable":  true
+                },
+    "Parent":  "Rock_Stone_Cobble",
+    "Recipe":  {
+                   "Input":  [
+                                 {
+                                     "ItemId":  "Ingredient_Bar_Cobalt",
+                                     "Quantity":  6
+                                 },
+                                 {
+                                     "ItemId":  "Ingredient_Rubber",
+                                     "Quantity":  8
+                                 },
+                                 {
+                                     "ResourceTypeId":  "Crystals",
+                                     "Quantity":  3
+                                 }
+                             ],
+                   "BenchRequirement":  [
+                                            {
+                                                "Id":  "Workbench",
+                                                "Type":  "Crafting",
+                                                "Categories":  [
+                                                                   "Workbench_Crafting"
+                                                               ]
+                                            }
+                                        ]
+               }
+}

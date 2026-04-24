@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "Mechanical Grinder"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/crusher_texture.png"
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#795548",
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Crusher.blockymodel",
+    "State": {
+      "Id": "MechanicalGrinder",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crusher_idle.blockyanim",
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crusher_active.blockyanim",
+          "Looping": true
+        },
+        "Done": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crusher_idle.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenMechanicalGrinder"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "MechanicalGrinder": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Crusher_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": {
+    "Capacity": 2
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_IronFrame",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}
+

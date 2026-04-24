@@ -1,0 +1,35 @@
+{
+  "TranslationProperties": {
+    "Name": "Coke Brick Mix"
+  },
+  "Tags": {
+    "Type": ["Material"]
+  },
+  "Icon": "Icons/ItemsGenerated/Coke_Brick_Mix_Icon.png",
+  "Utility": {
+    "Usable": false
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Soil_Sand",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Soil_Gravel",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

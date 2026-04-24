@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "Waterwheel"
+  },
+  "Set": "Wood_Oak_Plank",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Waterwheel.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/waterwheel_texture.png"
+      }
+    ],
+    "ParticleColor": "#795548",
+    "State": {
+      "Id": "Waterwheel",
+      "Size": 2,
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/waterwheel_idle.blockyanim",
+          "Looping": false
+        },
+        "Spin": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/waterwheel_spinning.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Waterwheel": {}
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Waterwheel_Icon.png",
+  "Tags": {
+    "Type": [ "Wood" ]
+  },
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Rock_Stone_Cobble", "Quantity": 2 },
+      { "ItemId": "SmallGear", "Quantity": 1 },
+      { "ItemId": "Ingredient_IronFrame", "Quantity": 1 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [ "Workbench_Crafting" ]
+      }
+    ]
+  }
+}

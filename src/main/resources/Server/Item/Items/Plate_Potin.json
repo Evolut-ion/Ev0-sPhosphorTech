@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Potin Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/potin_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Potin_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

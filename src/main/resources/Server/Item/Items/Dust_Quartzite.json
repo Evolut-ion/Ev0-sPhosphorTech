@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "Quartzite Dust"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/plastic_dust_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Plastic_Dust_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Dust"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

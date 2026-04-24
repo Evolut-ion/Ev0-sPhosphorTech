@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Fired Clay Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/fired_clay_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_FiredClay_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

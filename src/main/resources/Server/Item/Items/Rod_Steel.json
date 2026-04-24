@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Steel Rod" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Rod.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/steel_rod_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Rod_Steel_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Rod"] }
+}

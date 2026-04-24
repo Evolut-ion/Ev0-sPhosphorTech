@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Mechanical Heater"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/mechanical_heater.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/mechanical_heater_texture.png"
+      }
+    ],
+    "ParticleColor": "#d32f2f",
+    "State": {
+      "Id": "MechanicalHeater",
+      "Size": 2,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/mechanical_heater_idle.blockyanim",
+          "Looping": false
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/mechanical_heater_active.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenMechanicalHeater"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "MechanicalHeater": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/mechanical_heater_icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Shaft",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

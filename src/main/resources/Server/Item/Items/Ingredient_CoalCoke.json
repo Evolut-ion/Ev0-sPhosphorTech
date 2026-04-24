@@ -1,0 +1,12 @@
+{
+  "TranslationProperties": {
+    "Name": "Coal Coke"
+  },
+  "Tags": {
+    "Type": ["Material", "Fuel"]
+  },
+  "Icon": "Icons/ItemsGenerated/Rubber_Dust_Icon.png",
+  "Utility": {
+    "Usable": false
+  }
+}

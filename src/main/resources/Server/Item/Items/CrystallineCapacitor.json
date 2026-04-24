@@ -1,0 +1,84 @@
+{
+  "TranslationProperties": {
+    "Name": "Crystalline Capacitor"
+  },
+  "Set": "Rock_Calcite_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "ParticleColor": "#9c27b0",
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Crystalline Capacitor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/crystal_capacitor_texture.png"
+      }
+    ],
+    "State": {
+      "Id": "CrystallineCapacitor",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crystal_capacitor_idle.blockyanim",
+          "Looping": true
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/crystal_capacitor_active.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCrystallineCapacitor"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "CrystallineCapacitor": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Crystalline Capacitor_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ResourceTypeId": "Crystals",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      { "ResourceTypeId": "SteelIngots", "Quantity": 4 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Copper Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/copper_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Copper_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

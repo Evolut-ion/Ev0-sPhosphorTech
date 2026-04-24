@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": { "Name": "Rod Puller" },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/RodPuller.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Items/Icons/ItemsGenerated/rod_puller_texture.png" }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#795548",
+    "State": {
+      "Id": "RodPuller",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/rod_puller_idle.blockyanim",
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/rod_puller_active.blockyanim",
+          "Looping": true
+        },
+        "Done": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/rod_puller_idle.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          { "Type": "OpenRodPuller" }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "RodPuller": {}
+      }
+    }
+  },
+  "Tags": { "Type": ["Rock"] },
+  "Icon": "Icons/ItemsGenerated/RodPuller_Icon.png",
+  "Utility": { "Usable": true },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": { "Capacity": 2 },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Iron", "Quantity": 6 },
+      { "ItemId": "Rock_Stone", "Quantity": 12 },
+      { "ItemId": "SmallGear", "Quantity": 6 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Mechanical"]
+      }
+    ]
+  }
+}

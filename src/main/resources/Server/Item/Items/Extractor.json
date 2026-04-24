@@ -1,0 +1,94 @@
+{
+  "TranslationProperties": {
+    "Name": "Extractor"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+   "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/extractor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/electrical_extractor_texture.png"
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#4db6ac",
+    "State": {
+      "Id": "Extractor",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": null,
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/extractor_active.blockyanim",
+          "Looping": true
+        },
+        "Done": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/extractor_idle.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenExtractor"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Extractor": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/extractor_icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": {
+    "Capacity": 2
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ResourceTypeId": "Crystals",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_SteelFrame",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

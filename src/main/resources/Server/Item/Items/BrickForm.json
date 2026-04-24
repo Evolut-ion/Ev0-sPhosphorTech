@@ -1,0 +1,122 @@
+{
+  "TranslationProperties": {
+    "Name": "Brick Form"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Brick Form.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/brick_form_texture.png"
+      }
+    ],
+    "ParticleColor": "#c2a06f",
+    "State": {
+      "Id": "BrickForm",
+      "Size": 4,
+      "Definitions": {
+        "Empty": {
+          "CustomModelAnimation": null,
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage0Clay": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_0_clay.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage1Clay": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_1_clay.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage2Clay": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_2_clay.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage3Clay": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_3_clay.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage4Clay": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_4_clay.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage0Coke": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_0_coke.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage1Coke": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_1_coke.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage2Coke": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_2_coke.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage3Coke": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_3_coke.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        },
+        "Stage4Coke": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/stage_4_coke.blockyanim",
+          "RequiresAlphaBlending": true,
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenBrickForm"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "BrickForm": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": ["Rock"]
+  },
+  "Icon": "Icons/ItemsGenerated/Brick Form_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Stone",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Mechanical"]
+      }
+    ]
+  }
+}

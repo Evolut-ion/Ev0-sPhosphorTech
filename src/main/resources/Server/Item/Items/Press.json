@@ -1,0 +1,64 @@
+{
+  "TranslationProperties": { "Name": "Press" },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Press.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Items/Icons/ItemsGenerated/press_texture.png" }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#795548",
+    "State": {
+      "Id": "Press",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/press_idle.blockyanim",
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/press_active.blockyanim",
+          "Looping": false
+        },
+        "Done": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/press_idle.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          { "Type": "OpenPress" }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Press": {}
+      }
+    }
+  },
+  "Tags": { "Type": ["Rock"] },
+  "Icon": "Icons/ItemsGenerated/Press_Icon.png",
+  "Utility": { "Usable": true },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": { "Capacity": 2 },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Iron", "Quantity": 8 },
+      { "ItemId": "Rock_Stone", "Quantity": 4 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

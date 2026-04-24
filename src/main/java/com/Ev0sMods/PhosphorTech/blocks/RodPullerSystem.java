@@ -1,0 +1,66 @@
+package com.Ev0sMods.PhosphorTech.blocks;
+
+import java.util.Set;
+
+import javax.annotation.Nonnull;
+
+import com.Ev0sMods.PhosphorTech.mechanical.GearNetwork;
+import com.hypixel.hytale.component.AddReason;
+import com.hypixel.hytale.component.ArchetypeChunk;
+import com.hypixel.hytale.component.CommandBuffer;
+import com.hypixel.hytale.component.ComponentType;
+import com.hypixel.hytale.component.Holder;
+import com.hypixel.hytale.component.RemoveReason;
+import com.hypixel.hytale.component.Store;
+import com.hypixel.hytale.component.dependency.Dependency;
+import com.hypixel.hytale.component.query.Query;
+import com.hypixel.hytale.component.system.HolderSystem;
+import com.hypixel.hytale.component.system.tick.EntityTickingSystem;
+import com.hypixel.hytale.server.core.universe.world.World;
+import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
+
+/** ECS ticking system for {@link RodPullerState}. */
+public class RodPullerSystem extends EntityTickingSystem<ChunkStore> {
+
+    @Nonnull
+    private final ComponentType<ChunkStore, RodPullerState> componentType;
+
+    public RodPullerSystem(ComponentType<ChunkStore, RodPullerState> componentType) {
+        this.componentType = componentType;
+    }
+
+    @Override
+    public void tick(float dt, int index,
+                     @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk,
+                     @Nonnull Store<ChunkStore> store,
+                     @Nonnull CommandBuffer<ChunkStore> commandBuffer) {
+        RodPullerState state = archetypeChunk.getComponent(index, componentType);
+        if (state != null) state.tick(dt, index, archetypeChunk, store, commandBuffer);
+    }
+
+    @Override @Nonnull
+    public Set<Dependency<ChunkStore>> getDependencies() { return Set.of(); }
+
+    @Nonnull @Override
+    public Query<ChunkStore> getQuery() { return componentType; }
+
+    public static class Cleanup extends HolderSystem<ChunkStore> {
+        private final ComponentType<ChunkStore, RodPullerState> componentType;
+        public Cleanup(ComponentType<ChunkStore, RodPullerState> componentType) {
+            this.componentType = componentType;
+        }
+        @Override public void onEntityAdd(@Nonnull Holder<ChunkStore> h, @Nonnull AddReason r, @Nonnull Store<ChunkStore> s) {}
+        @Override public void onEntityRemoved(@Nonnull Holder<ChunkStore> h, @Nonnull RemoveReason r, @Nonnull Store<ChunkStore> s) {
+            RodPullerState state = h.getComponent(componentType);
+            if (state != null) {
+                try {
+                    World world = s.getExternalData().getWorld();
+                    if (world != null) BlockAnimator.applyBlockState(world, state.getPosition(), "Off");
+                } catch (Throwable ignored) {}
+                state.removed = true;
+                GearNetwork.unregisterExact(state.getPosition(), state);
+            }
+        }
+        @Override public Query<ChunkStore> getQuery() { return componentType; }
+    }
+}

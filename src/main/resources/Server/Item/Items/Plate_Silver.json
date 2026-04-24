@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Silver Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/silver_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Silver_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

@@ -1,0 +1,1 @@
+{ "InputRegex": "Ingredient_Bar_(\\w+)", "OutputTemplate": "Plate_$1", "CfCost": 500, "Ticks": 40, "OutputQty": 1 }

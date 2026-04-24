@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "Sieve"
+  },
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Sieve.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/sieve_texture.png"
+      }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#9E9E9E",
+    "State": {
+      "Id": "Sieve",
+      "Size": 3,
+      "Definitions": {
+        "Off": { "CustomModelAnimation": "Items/Icons/ItemsGenerated/sieve_idle.blockyanim","RequiresAlphaBlending": true, "Looping": true },
+        "Working": { "CustomModelAnimation": "Items/Icons/ItemsGenerated/sieve_active.blockyanim", "RequiresAlphaBlending": true, "Looping": true },
+        "Done": { "CustomModelAnimation": "Items/Icons/ItemsGenerated/sieve_idle.blockyanim", "RequiresAlphaBlending": true, "Looping": true }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": { "Interactions": [ { "Type": "OpenSieve" } ] }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Sieve": {}
+      }
+    }
+  },
+  "Tags": { "Type": [ "Tool" ] },
+  "Icon": "Icons/ItemsGenerated/Sieve_Icon.png",
+  "Utility": { "Usable": true },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": { "Capacity": 3 },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_IronFrame",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

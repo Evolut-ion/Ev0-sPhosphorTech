@@ -1,0 +1,21 @@
+{
+  "TranslationProperties": {
+    "Name": "Centrifuged Sap"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Dust.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/centrifuged_sap_texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Centrifuged_Sap_Icon.png",
+  "Tags": {
+    "Type": ["Material", "Liquid"]
+  },
+  "Utility": {
+    "Usable": false
+  }
+}

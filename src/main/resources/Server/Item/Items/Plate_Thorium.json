@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Thorium Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/thorium_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Thorium_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

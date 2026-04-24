@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "Solar Panel"
+  },
+  "Set": "Rock_Aqua_Brick",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Solar Panel.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/solar_panel_texture.png"
+      }
+    ],
+    "ParticleColor": "#ffcc80",
+    "State": {
+      "Id": "SolarPanel",
+      "Size": 5
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenSolarPanel"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "SolarPanel": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/solar_panel_icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_SteelFrame",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "CopperWire",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

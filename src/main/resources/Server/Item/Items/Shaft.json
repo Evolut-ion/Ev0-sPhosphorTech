@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "Shaft"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Shaft.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/shaft_texture.png"
+      }
+    ],
+    "ParticleColor": "#546e7a",
+    "State": {
+      "Id": "Shaft",
+      "Size": 1,
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/shaft_idle.blockyanim",
+          "Looping": true
+        },
+        "Spin": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/shaft_spin.blockyanim",
+          "Looping": true
+        },
+        "SpinBack": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/shaft_spin_reverse.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "VariantRotation": "UpDownNESW",
+    "BlockEntity": {
+      "Components": {
+        "Shaft": {}
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Shaft.png",
+  "Tags": {
+    "Type": [ "Rock" ]
+  },
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      { "ResourceTypeId": "Wood_All_Trunk", "Quantity": 4 },
+      { "ItemId": "Ingredient_Bar_Iron", "Quantity": 2 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [ "Workbench_Crafting" ]
+      }
+    ]
+  }
+}

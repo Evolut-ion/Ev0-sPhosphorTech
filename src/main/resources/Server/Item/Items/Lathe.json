@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": { "Name": "Lathe" },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Lathe.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Items/Icons/ItemsGenerated/lathe_texture.png" }
+    ],
+    "Gathering": null,
+    "ParticleColor": "#795548",
+    "State": {
+      "Id": "Lathe",
+      "Size": 1,
+      "Definitions": {
+        "Off": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/lathe_idle.blockyanim",
+          "Looping": false
+        },
+        "Working": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/lathe_active.blockyanim",
+          "Looping": true
+        },
+        "Done": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/lathe_idle.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          { "Type": "OpenLathe" }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Lathe": {}
+      }
+    }
+  },
+  "Tags": { "Type": ["Rock"] },
+  "Icon": "Icons/ItemsGenerated/Lathe_Icon.png",
+  "Utility": { "Usable": true },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": { "Capacity": 2 },
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_Bar_Iron", "Quantity": 6 },
+      { "ResourceTypeId": "SteelIngots", "Quantity": 4 },
+      { "ItemId": "Ingredient_SteelFrame", "Quantity": 1 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

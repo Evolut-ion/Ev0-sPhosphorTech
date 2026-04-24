@@ -1,0 +1,324 @@
+{
+    "TranslationProperties":  {
+                                  "Name":  "Copper Pipe"
+                              },
+    "Set":  "Rock_Calcite_Cobble",
+    "BlockType":  {
+                      "Gathering":  {
+                                        "Breaking":  {
+                                                         "GatherType":  "Rocks"
+                                                     }
+                                    },
+                      "ParticleColor":  "#bf7d4a",
+                      "Material":  "Solid",
+                      "RequiresAlphaBlending":  false,
+                      "BlockEntity":  {
+                                          "Components":  {
+                                                             "FluidPipe":  {
+                                                                               "PipeType":  "COPPER"
+                                                                           }
+                                                         }
+                                      },
+                      "DrawType":  "Model",
+                      "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_0.blockymodel",
+                      "CustomModelTexture":  [
+                                                 {
+                                                     "Texture":  "Blocks/CopperPipe.png"
+                                                 }
+                                             ],
+                      "State":  {
+                                    "Id":  "CopperPipe",
+                                    "Size":  64,
+                                    "Definitions":  {
+                                                        "Connect_0":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_0.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_0"
+                                                                      },
+                                                        "Connect_1":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_1.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_1"
+                                                                      },
+                                                        "Connect_2":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_2.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_2"
+                                                                      },
+                                                        "Connect_3":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_3.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_3"
+                                                                      },
+                                                        "Connect_4":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_4.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_4"
+                                                                      },
+                                                        "Connect_5":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_5.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_5"
+                                                                      },
+                                                        "Connect_6":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_6.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_6"
+                                                                      },
+                                                        "Connect_7":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_7.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_7"
+                                                                      },
+                                                        "Connect_8":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_8.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_8"
+                                                                      },
+                                                        "Connect_9":  {
+                                                                          "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_9.blockymodel",
+                                                                          "HitboxType":  "Pipe_Conn_9"
+                                                                      },
+                                                        "Connect_10":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_10.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_10"
+                                                                       },
+                                                        "Connect_11":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_11.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_11"
+                                                                       },
+                                                        "Connect_12":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_12.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_12"
+                                                                       },
+                                                        "Connect_13":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_13.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_13"
+                                                                       },
+                                                        "Connect_14":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_14.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_14"
+                                                                       },
+                                                        "Connect_15":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_15.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_15"
+                                                                       },
+                                                        "Connect_16":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_16.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_16"
+                                                                       },
+                                                        "Connect_17":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_17.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_17"
+                                                                       },
+                                                        "Connect_18":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_18.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_18"
+                                                                       },
+                                                        "Connect_19":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_19.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_19"
+                                                                       },
+                                                        "Connect_20":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_20.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_20"
+                                                                       },
+                                                        "Connect_21":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_21.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_21"
+                                                                       },
+                                                        "Connect_22":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_22.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_22"
+                                                                       },
+                                                        "Connect_23":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_23.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_23"
+                                                                       },
+                                                        "Connect_24":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_24.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_24"
+                                                                       },
+                                                        "Connect_25":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_25.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_25"
+                                                                       },
+                                                        "Connect_26":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_26.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_26"
+                                                                       },
+                                                        "Connect_27":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_27.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_27"
+                                                                       },
+                                                        "Connect_28":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_28.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_28"
+                                                                       },
+                                                        "Connect_29":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_29.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_29"
+                                                                       },
+                                                        "Connect_30":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_30.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_30"
+                                                                       },
+                                                        "Connect_31":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_31.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_31"
+                                                                       },
+                                                        "Connect_32":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_32.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_32"
+                                                                       },
+                                                        "Connect_33":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_33.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_33"
+                                                                       },
+                                                        "Connect_34":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_34.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_34"
+                                                                       },
+                                                        "Connect_35":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_35.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_35"
+                                                                       },
+                                                        "Connect_36":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_36.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_36"
+                                                                       },
+                                                        "Connect_37":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_37.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_37"
+                                                                       },
+                                                        "Connect_38":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_38.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_38"
+                                                                       },
+                                                        "Connect_39":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_39.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_39"
+                                                                       },
+                                                        "Connect_40":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_40.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_40"
+                                                                       },
+                                                        "Connect_41":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_41.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_41"
+                                                                       },
+                                                        "Connect_42":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_42.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_42"
+                                                                       },
+                                                        "Connect_43":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_43.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_43"
+                                                                       },
+                                                        "Connect_44":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_44.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_44"
+                                                                       },
+                                                        "Connect_45":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_45.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_45"
+                                                                       },
+                                                        "Connect_46":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_46.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_46"
+                                                                       },
+                                                        "Connect_47":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_47.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_47"
+                                                                       },
+                                                        "Connect_48":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_48.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_48"
+                                                                       },
+                                                        "Connect_49":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_49.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_49"
+                                                                       },
+                                                        "Connect_50":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_50.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_50"
+                                                                       },
+                                                        "Connect_51":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_51.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_51"
+                                                                       },
+                                                        "Connect_52":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_52.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_52"
+                                                                       },
+                                                        "Connect_53":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_53.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_53"
+                                                                       },
+                                                        "Connect_54":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_54.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_54"
+                                                                       },
+                                                        "Connect_55":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_55.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_55"
+                                                                       },
+                                                        "Connect_56":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_56.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_56"
+                                                                       },
+                                                        "Connect_57":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_57.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_57"
+                                                                       },
+                                                        "Connect_58":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_58.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_58"
+                                                                       },
+                                                        "Connect_59":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_59.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_59"
+                                                                       },
+                                                        "Connect_60":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_60.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_60"
+                                                                       },
+                                                        "Connect_61":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_61.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_61"
+                                                                       },
+                                                        "Connect_62":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_62.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_62"
+                                                                       },
+                                                        "Connect_63":  {
+                                                                           "CustomModel":  "Items/Icons/ItemsGenerated/Pipe_Conn_63.blockymodel",
+                                                                           "HitboxType":  "Pipe_Conn_63"
+                                                                       }
+                                                    }
+                                },
+                      "HitboxType":  "Pipe_Conn_0"
+                  },
+    "Tags":  {
+                 "Type":  [
+                              "Rock"
+                          ]
+             },
+    "Icon":  "Icons/ItemsGenerated/Copper_Pipe_Icon.png",
+    "Utility":  {
+                    "Usable":  true
+                },
+    "Parent":  "Rock_Stone_Cobble",
+    "Recipe":  {
+                   "Input":  [
+                                 {
+                                     "Quantity":  4,
+                                     "ItemId":  "Ingredient_Bar_Copper"
+                                 },
+                                 {
+                                     "Quantity":  2,
+                                     "ResourceTypeId":  "Wood_All_Trunk"
+                                 }
+                             ],
+                   "BenchRequirement":  [
+                                            {
+                                                "Categories":  [
+                                                                   "Workbench_Crafting"
+                                                               ],
+                                                "Id":  "Workbench",
+                                                "Type":  "Crafting"
+                                            }
+                                        ]
+               }
+}

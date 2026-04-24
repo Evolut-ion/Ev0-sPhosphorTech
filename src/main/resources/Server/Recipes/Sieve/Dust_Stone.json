@@ -1,0 +1,16 @@
+{
+  "Input": "Dust_Stone",
+  "Output": "Dust_Stone",
+  "OutputQty": 0,
+  "CfCost": 5,
+  "Ticks": 30,
+  "BonusOutput": "Dust_Copper",
+  "BonusQty": 1,
+  "BonusChance": 0.10,
+  "BonusOutput2": "Dust_Thorium",
+  "BonusQty2": 1,
+  "BonusChance2": 0.05,
+  "BonusOutput3": "Ingredient_Charcoal",
+  "BonusQty3": 1,
+  "BonusChance3": 0.125
+}

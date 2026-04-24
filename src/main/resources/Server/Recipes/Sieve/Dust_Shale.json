@@ -1,0 +1,19 @@
+{
+  "Input": "Dust_Shale",
+  "Output": "Dust_Shale",
+  "OutputQty": 0,
+  "CfCost": 5,
+  "Ticks": 30,
+  "BonusOutput": "Dust_Copper",
+  "BonusQty": 1,
+  "BonusChance": 0.15,
+  "BonusOutput2": "Dust_Iron",
+  "BonusQty2": 1,
+  "BonusChance2": 0.15,
+  "BonusOutput3": "Ingredient_Phosphorus_Dust",
+  "BonusQty3": 1,
+  "BonusChance3": 0.125,
+  "BonusOutput4": "Ingredient_Sulfur_Dust",
+  "BonusQty4": 1,
+  "BonusChance4": 0.20
+}

@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "Small Gear"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/SmallGear_Spin.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/waterwheel_texture.png"
+      }
+    ],
+    "ParticleColor": "#9e9e9e",
+    "State": {
+      "Id": "SmallGear",
+      "Size": 1,
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/small_gear_idle.blockyanim",
+          "Looping": true
+        },
+        "Spin": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/small_gear_spin.blockyanim",
+          "Looping": true
+        },
+        "SpinBack": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/small_gear_spin_reverse.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "VariantRotation": "UpDownNESW",
+    "BlockEntity": {
+      "Components": {
+        "SmallGear": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/SmallGear_Icon.png",
+  "Utility": {
+    "Usable": false
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_All_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Shaft",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}
+

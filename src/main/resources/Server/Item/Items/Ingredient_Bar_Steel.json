@@ -1,0 +1,12 @@
+{
+  "TranslationProperties": {
+    "Name": "Steel Bar"
+  },
+  "Tags": {
+    "Type": ["Material", "SteelIngots"]
+  },
+  "Icon": "Icons/ItemsGenerated/Lead_Ingot_Icon.png",
+  "Utility": {
+    "Usable": false
+  }
+}

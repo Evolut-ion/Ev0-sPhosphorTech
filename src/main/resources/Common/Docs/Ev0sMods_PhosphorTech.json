@@ -1,0 +1,16 @@
+{
+  "documentations": [
+    {
+      "group": "Ev0'sMods",
+      "id": "PhosphorTech",
+      "name": "Ev0's PhosphorTech",
+      "enabled": true,
+      "sortIndex": 0,
+      "compatibility": {
+        "mod": {
+          "universalDocumentationLoader": true
+        }
+      }
+    }
+  ]
+}

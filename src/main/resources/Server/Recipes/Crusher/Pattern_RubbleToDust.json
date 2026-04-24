@@ -1,0 +1,7 @@
+{
+  "InputRegex": "Rubble_(\\w+)",
+  "OutputTemplate": "Dust_$1",
+  "CfCost": 300,
+  "Ticks": 45,
+  "OutputQty": 1
+}

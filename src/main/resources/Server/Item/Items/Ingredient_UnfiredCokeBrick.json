@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "Unfired Coke Brick"
+  },
+  "Tags": {
+    "Type": ["Material"]
+  },
+  "Icon": "Icons/ItemsGenerated/Unfired_Coke_Brick_Icon.png",
+  "Utility": {
+    "Usable": false
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_UnfiredCokeBrick",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ingredient_CokeBrick",
+      "Quantity": 1
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Crafting",
+        "Categories": [
+          "Smelting"
+        ]
+      }
+    ],
+    "Seconds": 6
+  }
+}

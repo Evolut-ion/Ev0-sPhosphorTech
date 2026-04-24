@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Adamantite Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/adamantium_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Adamantium_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}

@@ -1,0 +1,8 @@
+{
+  "Input": "NoCube_Ingredient_Flour",
+  "InputQty" : 6,
+  "Output": "NoCube_Ingredient_Sifted_Flour",
+  "OutputQty": 0,
+  "CfCost": 5,
+  "Ticks": 30
+}

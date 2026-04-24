@@ -1,0 +1,7 @@
+{
+  "InputRegex": "Rock_(\\w+)",
+  "OutputTemplate": "Rubble_$1",
+  "CfCost": 500,
+  "Ticks": 60,
+  "OutputQty": 1
+}

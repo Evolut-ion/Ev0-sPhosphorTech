@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "Bellows"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Bellows.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/bellows_texture.png"
+      }
+    ],
+    "ParticleColor": "#795548",
+    "State": {
+      "Id": "Bellows",
+      "Size": 2,
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/bellows_idle.blockyanim",
+          "Looping": true
+        },
+        "Active": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/bellows_active.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "PumpBellows"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Bellows": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Bellows_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Rubber",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "WoodenPipe",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_IronFrame",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "Clutch"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+   "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Mechanical_Clutch.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/clutch_texture.png"
+      }
+    ],
+    "ParticleColor": "#607d8b",
+    "State": {
+      "Id": "Clutch",
+      "Size": 3,
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/clutch_lowering.blockyanim",
+          "Looping": false
+        },
+        "Locked": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/clutch_idle.blockyanim",
+          "Looping": false
+        },
+        "Spin": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/clutch_active.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ToggleClutch"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "Clutch": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Mechanical_Clutch_Icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "SmallGear",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  }
+}

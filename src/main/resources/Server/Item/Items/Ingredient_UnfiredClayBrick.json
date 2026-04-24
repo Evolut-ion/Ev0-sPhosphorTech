@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "Unfired Clay Brick"
+  },
+  "Tags": {
+    "Type": ["Material"]
+  },
+  "Icon": "Icons/ItemsGenerated/Unfired_Clay_Brick_Icon.png",
+  "Utility": {
+    "Usable": false
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_UnfiredClayBrick",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ingredient_ClayBrick",
+      "Quantity": 1
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Crafting",
+        "Categories": [
+          "Smelting"
+        ]
+      }
+    ],
+    "Seconds": 6
+  }
+}

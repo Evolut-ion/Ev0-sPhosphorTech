@@ -1,0 +1,28 @@
+{
+  "TranslationProperties": {
+    "Name": "Silver Bar"
+  },
+  "Tags": {
+    "Type": ["Material"]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Dust_Silver",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 30
+  },
+  "Icon": "Icons/ItemsGenerated/Plastic_Ingot_Icon.png",
+  "Utility": {
+    "Usable": false
+  }
+}

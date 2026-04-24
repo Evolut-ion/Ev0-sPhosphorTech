@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "Solar Boiler"
+  },
+  "Set": "Rock_Aqua_Brick",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Solar Boiler.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/solar_boiler_texture.png"
+      }
+    ],
+    "ParticleColor": "#78909c",
+    "State": {
+      "Id": "SolarBoiler",
+      "Size": 5,
+      "Definitions": {
+        "Water_Empty": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/water_empty.blockyanim",
+          "Looping": false
+        },
+        "Water_Low": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/water_low.blockyanim",
+          "Looping": false
+        },
+        "Water_Mid": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/water_mid.blockyanim",
+          "Looping": false
+        },
+        "Water_High": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/water_high.blockyanim",
+          "Looping": false
+        },
+        "Water_Full": {
+          "CustomModelAnimation": "Items/Icons/ItemsGenerated/water_full.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenSolarBoiler"
+          }
+        ]
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "SolarBoiler": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/solar_boiler_icon.png",
+  "Utility": {
+    "Usable": true
+  },
+  "Parent": "Rock_Stone_Cobble",
+  "Container": {
+    "Capacity": 2
+  }
+}

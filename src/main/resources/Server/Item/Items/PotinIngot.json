@@ -1,0 +1,36 @@
+{
+  "TranslationProperties": {
+    "Name": "Potin Ingot"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Ingot.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/potin_ingot_texture.png"
+      }
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Dust_Potin",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 30
+  },
+  "Icon": "Icons/ItemsGenerated/Potin_Ingot_Icon.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  }
+}

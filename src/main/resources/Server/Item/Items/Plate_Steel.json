@@ -1,0 +1,10 @@
+{
+  "TranslationProperties": { "Name": "Steel Plate" },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/Plate.blockymodel",
+    "CustomModelTexture": [{ "Texture": "Items/Icons/ItemsGenerated/steel_plate_texture.png" }]
+  },
+  "Icon": "Icons/ItemsGenerated/Plate_Steel_Icon.png",
+  "Tags": { "Type": ["Ingredient", "Plate"] }
+}
