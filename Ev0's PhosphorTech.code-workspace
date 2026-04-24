@@ -2,15 +2,6 @@
 	"folders": [
 		{
 			"path": ".."
-		},
-		{
-			"path": "../../hytale-template-plugin-main/hytale-template-plugin"
-		},
-		{
-			"path": "../../../AppData/Roaming/Hytale/install/release/package/game/latest/Server"
-		},
-		{
-			"path": "../../Ev0sChisel"
 		}
 	],
 	"settings": {
