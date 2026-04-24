@@ -107,7 +107,7 @@
         "Quantity": 4
       },
       {
-        "ItemId": "Ingredient_Bar_Stone",
+        "ItemId": "Rock_Stone",
         "Quantity": 4
       }
     ],
@@ -115,7 +115,7 @@
       {
         "Id": "Workbench",
         "Type": "Crafting",
-        "Categories": ["Mechanical"]
+        "Categories": ["Workbench_Crafting"]
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
     "Group": "Ev0'sMods",
     "Name": "Ev0's PhosphorTech",
-    "Version": "0.0.1",
+    "Version": "0.0.2",
     "Description": "Crystal based Engineering",
     "Authors": [
         {
@@ -11,10 +11,13 @@
     "Website": "example.org",
     "ServerVersion": "2026.03.26-89796e57b",
     "Dependencies": {
-        
+        "Ev0sMods:Ev0Lib": "*"
     },
     "OptionalDependencies": {
         
+    },
+    "UpdateChecker": {
+        "CurseForge": "1523239"
     },
     "DisabledByDefault": false,
     "Main": "com.Ev0sMods.PhosphorTech.PhosphorTechPlugin",
