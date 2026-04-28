@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "Rotary Pivot"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Model",
+    "CustomModel": "Items/Icons/ItemsGenerated/RotaryPivot.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/bellows_texture.png"
+      }
+    ],
+    "ParticleColor": "#6A5ACD",
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          { "Type": "RotaryPivotActivate" }
+        ]
+      }
+    },
+    "State": {
+      "Id": "RotaryPivot",
+      "Size": 2,
+      "Definitions": {
+        "Off": {
+          "CustomModel": "Items/Icons/ItemsGenerated/RotaryPivot.blockymodel",
+          "Looping": false
+        },
+        "Active": {
+          "CustomModel": "Items/Icons/ItemsGenerated/RotaryPivot_Active.blockymodel",
+          "Looping": false
+        }
+      }
+    },
+    "BlockEntity": {
+      "Components": {
+        "RotaryPivot": {}
+      }
+    },
+    "HitboxType": "RotaryPivot",
+    "VariantRotation": "NESW"
+  },
+  "Tags": { "Type": ["Tool"] },
+  "Icon": "Icons/ItemsGenerated/Bellows_Icon.png",
+  "Utility": { "Usable": true },
+  "Parent": "Rock_Stone_Cobble",
+  "Recipe": {
+    "Input": [
+      { "ItemId": "Ingredient_IronFrame",    "Quantity": 2 },
+      { "ItemId": "SmallGear",               "Quantity": 4 },
+      { "ItemId": "Ingredient_Bar_Copper",   "Quantity": 2 }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": ["Workbench_Crafting"]
+      }
+    ]
+  }
+}

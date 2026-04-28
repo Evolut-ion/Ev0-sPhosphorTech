@@ -17,12 +17,6 @@
       22.5
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Ingredient_Crystal_Fragments_Yellow.png",
-  "ResourceTypes": [
-    {
-      "Id": "Crystals",
-      "Quantity": 1
-    }
-  ]
+  "Icon": "Icons/ItemsGenerated/Ingredient_Crystal_Fragments_Yellow.png"
   
 }

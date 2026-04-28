@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Carbide Chunks"
+    "Name": "server.items.Ingredient_Crystal_White.name"
   },
   "Categories": [
     "Items.Ingredients"
@@ -38,7 +38,7 @@
   "DropOnDeath": true,
   "ResourceTypes": [
     {
-      "Id": "Crystals",
+      "Id": "Crystal_Shards",
       "Quantity": 1
     }
   ]

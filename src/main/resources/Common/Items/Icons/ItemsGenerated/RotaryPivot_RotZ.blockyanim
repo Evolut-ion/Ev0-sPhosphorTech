@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "duration": 40,
+  "holdLastKeyframe": true,
+  "nodeAnimations": {
+    "root": {
+      "orientation": [
+        {"time": 0,  "delta": {"x": 0, "y": 0, "z": 0,      "w": 1},      "interpolationType": "linear"},
+        {"time": 40, "delta": {"x": 0, "y": 0, "z": 0.7071, "w": 0.7071}, "interpolationType": "linear"}
+      ]
+    }
+  }
+}

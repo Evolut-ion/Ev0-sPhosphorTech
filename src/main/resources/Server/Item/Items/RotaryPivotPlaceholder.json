@@ -1,0 +1,20 @@
+{
+  "TranslationProperties": {
+    "Name": "Rotary Pivot Placeholder"
+  },
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Gathering": null,
+    "DrawType": "Cube",
+     "Textures": [
+      {
+        "All": "Items/Icons/ItemsGenerated/null_texture.png"
+      }
+    ],
+    "Opacity" : "Transparent",
+    "ParticleColor": null,
+    "Material": "Solid",
+    "RequiresAlphaBlending": true
+  },
+  "Tags": { "Type": ["Tool"] }
+}

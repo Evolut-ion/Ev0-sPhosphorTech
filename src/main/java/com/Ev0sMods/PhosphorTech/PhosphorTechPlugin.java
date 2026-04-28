@@ -239,6 +239,9 @@ public class PhosphorTechPlugin extends JavaPlugin {
                 LatheState.class, "Lathe", LatheState.CODEC);
         RodPullerState.COMPONENT_TYPE = csr.registerComponent(
                 RodPullerState.class, "RodPuller", RodPullerState.CODEC);
+        com.Ev0sMods.PhosphorTech.blocks.RotaryPivotState.COMPONENT_TYPE = csr.registerComponent(
+                com.Ev0sMods.PhosphorTech.blocks.RotaryPivotState.class, "RotaryPivot",
+                com.Ev0sMods.PhosphorTech.blocks.RotaryPivotState.CODEC);
 
         // â”€â”€ Register CF-connectable block type IDs for cross-chunk connection visuals â”€â”€
         for (String id : new String[]{
@@ -254,6 +257,7 @@ public class PhosphorTechPlugin extends JavaPlugin {
 
                 // Register sieve as gear-connectable visual type too (same as grinder)
                 com.Ev0sMods.PhosphorTech.mechanical.GearNetwork.registerConnectableType("Sieve");
+                com.Ev0sMods.PhosphorTech.mechanical.GearNetwork.registerConnectableType("RotaryPivot");
 
         // â”€â”€ Register ECS systems â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         csr.registerSystem(new CrystalGeneratorSystem(CrystalGeneratorState.COMPONENT_TYPE));
@@ -330,6 +334,10 @@ public class PhosphorTechPlugin extends JavaPlugin {
         csr.registerSystem(new CompressorSystem.Cleanup(CompressorState.COMPONENT_TYPE));
         csr.registerSystem(new LatheSystem.Cleanup(LatheState.COMPONENT_TYPE));
         csr.registerSystem(new RodPullerSystem.Cleanup(RodPullerState.COMPONENT_TYPE));
+        csr.registerSystem(new com.Ev0sMods.PhosphorTech.blocks.RotaryPivotSystem(
+                com.Ev0sMods.PhosphorTech.blocks.RotaryPivotState.COMPONENT_TYPE));
+        csr.registerSystem(new com.Ev0sMods.PhosphorTech.blocks.RotaryPivotSystem.Cleanup(
+                com.Ev0sMods.PhosphorTech.blocks.RotaryPivotState.COMPONENT_TYPE));
 
         // â”€â”€ Register interaction codecs â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         this.getCodecRegistry(Interaction.CODEC).register(
@@ -406,6 +414,11 @@ public class PhosphorTechPlugin extends JavaPlugin {
                 "CrankHandle",
                 CrankHandleInteraction.class,
                 CrankHandleInteraction.CODEC);
+
+        this.getCodecRegistry(Interaction.CODEC).register(
+                "RotaryPivotActivate",
+                com.Ev0sMods.PhosphorTech.interactions.RotaryPivotInteraction.class,
+                com.Ev0sMods.PhosphorTech.interactions.RotaryPivotInteraction.CODEC);
 
         this.getCodecRegistry(Interaction.CODEC).register(
                 "OpenMechanicalGrinder",

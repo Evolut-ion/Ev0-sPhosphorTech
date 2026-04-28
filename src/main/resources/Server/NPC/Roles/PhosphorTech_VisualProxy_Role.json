@@ -1,0 +1,6 @@
+{
+  "Type": "Generic",
+  "MotionControllerList": [],
+  "MaxHealth": { "Compute": "MaxHealth" },
+  "Parameters": { "MaxHealth": { "Value": 1 } }
+}
